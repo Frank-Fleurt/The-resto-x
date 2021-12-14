@@ -143,6 +143,8 @@ h1{
 .top-meal{
   text-align:center ;
   padding: 30px;
+  width: 80%;
+  margin: 0 auto;
 }
 .top-meal h3{
   padding: 35px;
@@ -157,6 +159,7 @@ h1{
 .top-meal ul li {
   font-family: "font-p", sans-serif;
   border-bottom: #eeeeee 1px solid;
+  font-size: 0.85rem;
 }
 .top-meal ul li:hover {
 border-bottom: rgb(100, 100, 100) 1px solid; 
@@ -167,8 +170,10 @@ border-bottom: rgb(100, 100, 100) 1px solid;
   display: grid;
   grid-template-rows: repeat(8,140px);
   width: 80%;
+  min-width: 340px;
   margin: 0 auto;
   padding: 50px 0 10px;
+  border-top: 3px solid #b97245 ;
 }
 .choices{
   display: grid;
