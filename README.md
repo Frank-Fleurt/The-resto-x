@@ -1,1 +1,0 @@
-* Go on the page ! -> https://frank-fleurt.github.io/The-resto-x/

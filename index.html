@@ -15,31 +15,22 @@
     <nav>
       <a href="">
         <h3>
-          <div class="logo font-2">Resto</div>
+          <div class="logo font-2">L'esale <br> Nacrée</div>
         </h3>
       </a>
       <div class="nav-bar">
         <ul>
           <a href="">
-            <li>Home</li>
+            <li>Accueil</li>
           </a>
-          <a href="">
+          <a href="#reserve">
             <li>Reservations</li>
           </a>
-          <a href="">
+          <a href="#menu">
             <li>Menu</li>
           </a>
-          <a href="">
-            <li>Blog</li>
-          </a>
-          <a href="">
-            <li>Pages</li>
-          </a>
-          <a href="">
-            <li>Shop</li>
-          </a>
-          <a href="">
-            <li>Contact</li>
+          <a href="#contact">
+            <li>Nous Contacter</li>
           </a>
         </ul>
         <div class="networks">
@@ -60,11 +51,10 @@
     <div class="head">
       <div class="head-container">
         <h1>
-          <div class="font-2 welcome">Welcome to</div>
-          The resto
+          <div class="font-2 welcome">Bienvenue chez</div>
+          L'escale nacrée
         </h1>
-        <div class="forks-1"><img src="./img/ic-plate-big.png" alt=""></div>
-        <span>We serve only the freshest ingredients !</span>
+
       </div>
     </div>
   </header>
@@ -73,7 +63,7 @@
       <div class="left">
         <div class="left-container">
           <h3>
-            <div class="discover font-2">Discover</div> Our store
+            <div class="discover font-2">Decouvrez</div> Notre restaurant
           </h3>
           <div class="forks-2"><img src="./img/ic-plate.png" alt=""></div>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi molestiae dolorem aliquam voluptatum
@@ -93,94 +83,27 @@
         <div class="curry"></div>
       </div>
     </div>
-    <div class="meal-menu">
+    <div class="meal-menu" id="menu">
       <div class="top-meal">
-        <h3 class="discover font-2">Discover</h3>
+        <h3 class="discover font-2">Menus</h3>
         <div class="forks-2"><img src="./img/ic-plate.png" alt=""></div>
         <div class="nav-meal">
           <ul>
-            <li><a href="">Breakfast</a></li>
-            <li><a href="">Lunch</a></li>
-            <li><a href="">Dinner</a></li>
-            <li><a href="">Drinks</a></li>
-            <li><a href="">Other</a></li>
+            <li id="dayMenuBtn">Carte du jour</li>
+            <li id="barBtn">Bar</li>
           </ul>
         </div>
       </div>
       <div class="bottom-meal">
-        <div class="meal-container">
-          <div class="choices">
-            <img src="./img/dish-item-01.jpg" alt="Image of the plate">
-            <div class="flex-choice">
-              <h4>Italian source mushroom</h4>
-              <Span>Mushroom / Garlic / Veggies </Span>
-            </div>
-            <div class="price">$12</div>
-          </div>
-          <div class="choices">
-            <img src="./img/dish-item-02.jpg" alt="Image of the plate">
-            <div class="flex-choice">
-              <h4>Fried Potatoes with garlic</h4>
-              <Span>Potatoes / Olive Oil / Garlic</Span>
-            </div>
-            <div class="price">$22</div>
-          </div>
-          <div class="choices">
-            <img src="./img/dish-item-03.jpg" alt="Image of the plate">
-            <div class="flex-choice">
-              <h4>Tenu Roast Source</h4>
-              <Span>Tuna / Potatoes / Rice </Span>
-            </div>
-            <div class="price">$15</div>
-          </div>
-          <div class="choices">
-            <img src="./img/dish-item-04.jpg" alt="Image of the plate">
-            <div class="flex-choice">
-              <h4>Roast Pork (4 Sticks)</h4>
-              <Span>Pork / Veggies / Shoyu</Span>
-            </div>
-            <div class="price">$18</div>
-          </div>
-          <div class="choices">
-            <img src="./img/dish-item-05.jpg" alt="Image of the plate">
-            <div class="flex-choice">
-              <h4>Salted Fried Chicken</h4>
-              <Span>Chiken / Olive oil / Salt </Span>
-            </div>
-            <div class="price">$20</div>
-          </div>
-          <div class="choices">
-            <img src="./img/dish-item-06.jpg" alt="Image of the plate">
-            <div class="flex-choice">
-              <h4>Crab with curry soures</h4>
-              <Span>Crab / Potatoes / Rice </Span>
-            </div>
-            <div class="price">$10</div>
-          </div>
-          <div class="choices">
-            <img src="./img/dish-item-07.jpg" alt="Image of the plate">
-            <div class="flex-choice">
-              <h4>Imported salmon Steak</h4>
-              <Span>Salmon / Veggies / Oil </Span>
-            </div>
-            <div class="price">$16</div>
-          </div>
-          <div class="choices">
-            <img src="./img/dish-item-08.jpg" alt="Image of the plate">
-            <div class="flex-choice">
-              <h4>Baked Potato Pizza</h4>
-              <Span>Potato / Bread /Cheese </Span>
-            </div>
-            <div class="price">$25</div>
-          </div>
-        </div>
+        <img src="./img/carte-1.png" alt="Meal menu" id="bar">
+        <img src="./img/carte-2.png" alt="Meal menu" id="dayMenu">
       </div>
     </div>
-    <div class="reserv">
+    <div class="reserv" id="reserve">
       <div class="date-bg">
         <div class="date">
           <h3>
-            <div class="font-2">Time</div> OPEN
+            <div class="font-2">Horraire</div> Restaurant
           </h3>
           <div class="forks-2">
             <img src="./img/ic-plate.png" alt="">
@@ -191,81 +114,41 @@
           <div class="days">Satuday - sunday</div>
           <span>8AM-1PM (Brunch)</span><br>
           <span>1PM-9PM (Lunch/Dinner)</span>
-          <div class="phone">+15 890 979 25 52</div>
+          <div class="phone"></div>
         </div>
       </div>
       <div class="reservation">
         <h3>
-          <div class="font-2">Reservation</div> Online Booking
+          <div class="font-2">Réservez</div> En ligne
         </h3>
         <div class="forks-2">
           <img src="./img/ic-plate.png" alt="">
         </div>
         <form action="">
           <div class="reservation-form">
+            <select name="select" id="reserve-select">
+              <option value="">Selectionnez la réservation</option>
+              <option value="restaurant">Restaurant</option>
+              <option value="hotel">Hotel</option>
+          </select>
             <input type="number" id="people" placeholder="People" min="1" max="8">
             <input type="date" id="date" max="2024-12-31" min="2022-01-01">
             <input type="time" min="7:00" max="22:00">
             <input type="text" placeholder="Name">
             <input type="text" placeholder="Phone">
             <input type="text" placeholder="Email"></div>
-          <input type="button" value="Book now">
+          <input type="button" value="Reserver">
         </form>
       </div>
     </div>
     <div class="events">
       <div class="event-title">
         <h2>
-          <div class="font-2">Upcoming</div> OUR EVENT
+          <div class="font-2">Decouvrez</div> NOTRE HOTEL
         </h2>
         <div class="forks-2"><img src="./img/ic-plate.png" alt=""></div>
       </div>
-      <div class="events-container">
-        <div class="event-list">
-          <div class="event-1">
-            <div class="bg-event-1">
-              <div class="date-event">
-                <h2>08</h2>
-                <h3>July</h3>
-              </div>
-            </div>
-            <div class="event-container">
-              <h4>Night Inspirescu Party</h4>
-              <span><i class="fas fa-map-marker-alt"></i>Restaurat Resto</span>
-              <span><i class="far fa-clock"></i>10:00pm - 6:00am</span>
-              <div>Buy tickets</div>
-            </div>
-          </div>
-          <div class="event-2">
-            <div class="bg-event-2">
-              <div class="date-event-2">
-                <h2>08</h2>
-                <h3>July</h3>
-              </div>
-              <div class="event-container">
-                <h4> Thousands celebrities at Johnnie Night</h4>
-                <span><i class="fas fa-map-marker-alt"></i>Restaurat Resto</span>
-                <span><i class="far fa-clock"></i>10:00pm - 6:00am</span>
-                <div>Buy tickets</div>
-              </div>
-            </div>
-          </div>
-          <div class="event-3">
-              <div class="bg-event-3">
-                <div class="date-event">
-                  <h2>08</h2>
-                  <h3>July</h3>
-                </div>
-              </div>
-              <div class="event-container">
-                <h4>DJ RobagRhume</h4>
-                <span><i class="fas fa-map-marker-alt"></i>Restaurat Resto</span>
-                <span><i class="far fa-clock"></i>10:00pm - 6:00am</span>
-                <div>Buy tickets</div>
-              </div>
-            </div>
-        </div>
-      </div>
+    
     </div>
     <div class="testimony-2">
       <div class="testimony-2-container">
@@ -299,8 +182,8 @@
         <span> Newsletter </span>
         <input type="text" placeholder="Your email adress">
       </div>
-      <div class="follow-us">
-        <span>Follow us:</span>
+      <div class="follow-us" id="contact">
+        <span>Suivez nous:</span>
         <div class="social">
 
           <a href="">
@@ -319,6 +202,7 @@
       </div>
     </div>
   </footer>
+  <script src="./index.js"></script>
 </body>
 
 </html>
